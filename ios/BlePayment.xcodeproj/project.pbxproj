@@ -43,6 +43,7 @@
 		52C9139D412E4D7ABF57A667 /* Avenir-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BE7A68B578B4C22A6AA206A /* Avenir-Heavy.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		84AE23482FC5401C812C4A74 /* Avenir-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A282F7AA585F4D199F318EEC /* Avenir-Black.ttf */; };
+		8739083DFAFF42D99BEE8428 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA142C5CF444B4AB072BDA2 /* libz.tbd */; };
 		8E2592C65E7A49DC8E4707DF /* Avenir-BlackOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCED83F09D6B4AFA9FC7D08A /* Avenir-BlackOblique.ttf */; };
 		90BBDA23FA6B490197EDE639 /* Avenir-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69F99647C8A44F5FB5900AE5 /* Avenir-Light.ttf */; };
 		9344513B4CEB4D0E8FBF4968 /* Avenir-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED0C0609CBF45E9A8DE6F69 /* Avenir-Book.ttf */; };
@@ -50,6 +51,7 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B2286C960A44410382ACEB50 /* libBleClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CB8AC419FB489C80A7FB2A /* libBleClient.a */; };
 		B2610C17220027C40044D3DD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2610C16220027C30044D3DD /* File.swift */; };
+		B4CA4154BDC1441F9F73F2AB /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD61E5E877434CBE115D12 /* libCodePush.a */; };
 		BBF3FFB7026842E48F82B209 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A91665A2214F6EAFBFC295 /* libRNGestureHandler.a */; };
 		F5804B87D70945D2873F44FE /* Avenir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D99FEB5B2D664C0FA961DA33 /* Avenir-Medium.ttf */; };
 		FAD493DB984B4EA9A8F84E22 /* Avenir-BookOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9108DE139264453B6DF433F /* Avenir-BookOblique.ttf */; };
@@ -343,6 +345,20 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNGestureHandler;
 		};
+		B2610C51220030C00044D3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C25F81CD5094CD6B1B02D6D /* CodePush.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = CodePush;
+		};
+		B2610C53220030C00044D3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C25F81CD5094CD6B1B02D6D /* CodePush.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F886647B1F4ADB500036D01B;
+			remoteInfo = "CodePush-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -356,6 +372,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BlePaymentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlePaymentTests.m; sourceTree = "<group>"; };
 		0BE6D1555F874F83B7FFB603 /* Avenir-Oblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Oblique.ttf"; path = "../Sources/Assets/Fonts/Avenir-Oblique.ttf"; sourceTree = "<group>"; };
+		0CA142C5CF444B4AB072BDA2 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BlePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -367,6 +384,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BlePayment/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		167439FEEDFD4842AC754813 /* Avenir-HeavyOblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-HeavyOblique.ttf"; path = "../Sources/Assets/Fonts/Avenir-HeavyOblique.ttf"; sourceTree = "<group>"; };
+		2C25F81CD5094CD6B1B02D6D /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* BlePayment-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlePayment-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* BlePayment-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlePayment-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -381,6 +399,7 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8C7BE5E5C51B4767B3DD3810 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
 		94FEDE8860B64233AE364624 /* Avenir-MediumOblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-MediumOblique.ttf"; path = "../Sources/Assets/Fonts/Avenir-MediumOblique.ttf"; sourceTree = "<group>"; };
+		A1AD61E5E877434CBE115D12 /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
 		A282F7AA585F4D199F318EEC /* Avenir-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Black.ttf"; path = "../Sources/Assets/Fonts/Avenir-Black.ttf"; sourceTree = "<group>"; };
 		A9108DE139264453B6DF433F /* Avenir-BookOblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-BookOblique.ttf"; path = "../Sources/Assets/Fonts/Avenir-BookOblique.ttf"; sourceTree = "<group>"; };
 		AB422381063341A49B13F923 /* Avenir-LightOblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-LightOblique.ttf"; path = "../Sources/Assets/Fonts/Avenir-LightOblique.ttf"; sourceTree = "<group>"; };
@@ -419,6 +438,8 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				BBF3FFB7026842E48F82B209 /* libRNGestureHandler.a in Frameworks */,
 				B2286C960A44410382ACEB50 /* libBleClient.a in Frameworks */,
+				B4CA4154BDC1441F9F73F2AB /* libCodePush.a in Frameworks */,
+				8739083DFAFF42D99BEE8428 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +589,7 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				0CA142C5CF444B4AB072BDA2 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -626,6 +648,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				8C7BE5E5C51B4767B3DD3810 /* RNGestureHandler.xcodeproj */,
 				444DB5191A51476E8C1E3149 /* BleClient.xcodeproj */,
+				2C25F81CD5094CD6B1B02D6D /* CodePush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -682,6 +705,7 @@
 			children = (
 				45A91665A2214F6EAFBFC295 /* libRNGestureHandler.a */,
 				69CB8AC419FB489C80A7FB2A /* libBleClient.a */,
+				A1AD61E5E877434CBE115D12 /* libCodePush.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -698,6 +722,15 @@
 			isa = PBXGroup;
 			children = (
 				B2610C11220027B50044D3DD /* libBleClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2610C4D220030C00044D3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2610C52220030C00044D3DD /* libCodePush.a */,
+				B2610C54220030C00044D3DD /* libCodePush.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -821,6 +854,10 @@
 				{
 					ProductGroup = B2610C0D220027B40044D3DD /* Products */;
 					ProjectRef = 444DB5191A51476E8C1E3149 /* BleClient.xcodeproj */;
+				},
+				{
+					ProductGroup = B2610C4D220030C00044D3DD /* Products */;
+					ProjectRef = 2C25F81CD5094CD6B1B02D6D /* CodePush.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -1159,6 +1196,20 @@
 			remoteRef = B2610C13220027B50044D3DD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B2610C52220030C00044D3DD /* libCodePush.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCodePush.a;
+			remoteRef = B2610C51220030C00044D3DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2610C54220030C00044D3DD /* libCodePush.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCodePush.a;
+			remoteRef = B2610C53220030C00044D3DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1316,12 +1367,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = BlePaymentTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1346,12 +1399,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = BlePaymentTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1377,6 +1432,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = BlePayment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1385,7 +1441,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = solutions.styl.rn.1;
 				PRODUCT_NAME = BlePayment;
 				SWIFT_OBJC_BRIDGING_HEADER = "BlePayment-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1405,6 +1461,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = BlePayment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1413,7 +1470,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = solutions.styl.rn.1;
 				PRODUCT_NAME = BlePayment;
 				SWIFT_OBJC_BRIDGING_HEADER = "BlePayment-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -1437,11 +1494,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = "BlePayment-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1473,11 +1532,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = "BlePayment-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1508,11 +1569,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = "BlePayment-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1543,11 +1606,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-ble-plx/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 				);
 				INFOPLIST_FILE = "BlePayment-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
