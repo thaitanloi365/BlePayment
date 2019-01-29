@@ -1,0 +1,53 @@
+{
+  "name": "BlePayment",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "tsc": "tsc",
+    "android": "adb reverse tcp:8081 tcp:8081 & react-native run-android",
+    "shake": "adb shell input keyevent 82",
+    "iosD": "react-native run-ios --device",
+    "iosE": "react-native run-ios"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-ble-plx": "^1.0.1",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "@types/react": "^16.7.22",
+    "@types/react-native": "^0.57.32",
+    "@types/react-navigation": "^3.0.1",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-test-renderer": "^16.0.3",
+    "@types/redux": "^3.6.0",
+    "@types/redux-persist": "^4.3.1",
+    "@types/redux-thunk": "^2.1.0",
+    "babel-jest": "24.0.0",
+    "babel-plugin-module-resolver": "^3.1.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "jest": "24.0.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3",
+    "redux-logger": "^3.0.6",
+    "typescript": "^3.2.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "Sources/Assets/Fonts"
+    ]
+  }
+}
